@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SGPA Calculator</title>
+
+	<!-- Basic Metas -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Fav Icon -->
+	<link rel="icon" type="text/css" href="./assets/imgs/favicon.png">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+
+</head>
+<body>
+	<div class="wrapper">
+		<nav class="navbar bg-dark text-white p-3 justify-content-center">
+			<h1>SGPA Calculator - I & II Semester</h1>
+		</nav>
+
+		<div class="form-container pt-5 pb-5 container">
+			<div class="d-flex mt-3 mb-5">
+				<button class="btn btn-primary form-control mr-4" id="c-btn">C Cycle</button>
+				<button class="btn btn-warning form-control ml-4" id="p-btn">P Cycle</button>
+			</div>
+			<form class="form">
+				<div class="input-group mb-3">
+				    <div class="input-group-prepend">
+				        <span class="input-group-text" id="subject-1">21MAT21</span>
+				    </div>
+					<input class="subject form-control" type="number" credit="3">
+				</div>
+
+				<div class="input-group mb-3">
+				    <div class="input-group-prepend">
+				        <span class="input-group-text" id="subject-2">21CHE22</span>
+				    </div>
+					<input class="subject form-control" type="number" credit="3">
+				</div>
+
+				<div class="input-group mb-3">
+				    <div class="input-group-prepend">
+				        <span class="input-group-text" id="subject-3">21PSP23</span>
+				    </div>
+					<input class="subject form-control" type="number" credit="3">
+				</div>
+
+				<div class="input-group mb-3">
+				    <div class="input-group-prepend">
+				        <span class="input-group-text" id="subject-4">21ELN24</span>
+				    </div>
+					<input class="subject form-control" type="number" credit="3">
+				</div>
+
+				<div class="input-group mb-3">
+				    <div class="input-group-prepend">
+				        <span class="input-group-text" id="subject-5">21EME25</span>
+				    </div>
+					<input class="subject form-control" type="number" credit="3">
+				</div>
+
+				<div class="input-group mb-3">
+				    <div class="input-group-prepend">
+				        <span class="input-group-text" id="subject-6">21CHEL26</span>
+				    </div>
+					<input class="subject form-control" type="number" credit="1">
+				</div>
+
+				<div class="input-group mb-3">
+				    <div class="input-group-prepend">
+				        <span class="input-group-text" id="subject-7">21CPL27</span>
+				    </div>
+					<input class="subject form-control" type="number" credit="1">
+				</div>
+
+				<div class="input-group mb-3">
+				    <div class="input-group-prepend">
+				        <span class="input-group-text" id="subject-8">21EGH28</span>
+				    </div>
+					<input class="subject form-control" type="number" credit="2">
+				</div>
+
+				<div class="input-group mb-3">
+				    <div class="input-group-prepend">
+				        <span class="input-group-text" id="subject-9">21SFH29</span>
+				    </div>
+					<input class="subject form-control" type="number" credit="1">
+				</div>
+
+				<button class="btn btn-success form-control" id="btn">Calculate</button>
+				<br/><br>
+				<p>
+					<h3 class="text-center">
+						Your SGPA is: <span class="font-weight-bold" id="calculated-sgpa">0.000</span>
+					</h3>
+				</p>
+			</form>
+		</div>
+		<footer class="text-center">Made with &lt;3 by: <a href="https://s4hil.github.io">Sahil Parray</a></footer>
+	</div>
+
+	<script src="./assets/js/main.js"></script>
+</body>
+</html>

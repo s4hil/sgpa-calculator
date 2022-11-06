@@ -1,0 +1,29 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+	background: #f1f1f1;
+}
+
+.input-group-text {
+	width: 6rem;
+	text-align: center;
+}
+
+.form-container {
+	width: 60%;
+}
+
+@media only screen and (max-width: 768px){
+	.navbar h1 {
+		font-size: 1.2rem;
+	}
+	.form-container {
+		width: 80%;
+	}
+
+}
