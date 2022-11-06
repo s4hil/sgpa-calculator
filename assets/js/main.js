@@ -98,8 +98,6 @@ btn.addEventListener('click', function (e) {
 
 	}
 
-	console.log(creditPointSum);
-	console.log(gradePointSum);
 	let sgpa = (gradePointSum/creditPointSum).toFixed(3);
 
 	console.log(sgpa);
@@ -107,5 +105,8 @@ btn.addEventListener('click', function (e) {
 	let sgpaText = document.getElementById("calculated-sgpa");
 
 	sgpaText.textContent = sgpa;
+
+	creditPointSum = 0;
+	gradePointSum = 0;
 
 });
