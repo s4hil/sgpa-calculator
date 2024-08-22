@@ -96,6 +96,8 @@ btn.addEventListener('click', function (e) {
 		creditPointSum += credit;
 		gradePointSum += cg;
 
+		
+
 	}
 
 	let sgpa = (gradePointSum/creditPointSum).toFixed(3);
