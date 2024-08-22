@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>SGPA Calculator</title>
+	<title>5th - SGPA Calculator</title>
 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-T71FS5Y80V"></script>
@@ -28,98 +28,71 @@
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
-	<style>
-		@media only screen and (max-width: 768px){
-			#btns {
-				display: flex;
-				justify-content: center;
-				flex-direction: column;	
-			}
-			#btns > *{
-				margin: 0 !important;
-				margin-top: 1rem !important;
-			}
-		}
-	</style>
+
 </head>
 <body>
 	<div class="wrapper">
 		<nav class="navbar bg-dark text-white p-3 justify-content-center">
-			<h1>SGPA Calculator - I &amp; II Semester</h1>
+			<h1>SGPA Calculator - VI Semester</h1>
 		</nav>
 
 		<div class="form-container pt-5 pb-5 container">
-			<div class="d-flex mt-3 mb-5" id="btns">
-				<button class="btn btn-info form-control mr-4" id="c-btn">C Cycle</button>
-				<button class="btn btn-warning form-control ml-4" id="p-btn">P Cycle</button>
-				<a href="3rd.html" class="btn btn-primary form-control ml-4" id="p-btn"> III Sem</a>
-				<a href="4th.html" class="btn btn-danger form-control ml-4" id="p-btn"> IV Sem</a>
-				<a href="5th.html" class="btn btn-secondary form-control ml-4" id="p-btn"> V Sem</a>
-				<a href="6th.html" class="btn btn-dark form-control ml-4" id="p-btn"> VI Sem</a>
-			</div>
 			<form class="form">
 				<div class="input-group mb-3">
 				    <div class="input-group-prepend">
-				        <span class="input-group-text" id="subject-1">21MAT21</span>
+				        <span class="input-group-text" id="subject-1">SEPM (21CS61)</span>
+				    </div>
+					<input class="subject form-control" type="number" credit="3">
+				</div>
+				<div class="input-group mb-3">
+				    <div class="input-group-prepend">
+				        <span class="input-group-text" id="subject-1">FSD (21CS62)</span>
+				    </div>
+					<input class="subject form-control" type="number" credit="4">
+				</div>
+
+				<div class="input-group mb-3">
+				    <div class="input-group-prepend">
+				        <span class="input-group-text" id="subject-2">CG (21CS63)</span>
 				    </div>
 					<input class="subject form-control" type="number" credit="3">
 				</div>
 
 				<div class="input-group mb-3">
 				    <div class="input-group-prepend">
-				        <span class="input-group-text" id="subject-2">21CHE22</span>
+				        <span class="input-group-text" id="subject-3">ADVJ(21xx64x)</span>
 				    </div>
 					<input class="subject form-control" type="number" credit="3">
 				</div>
 
 				<div class="input-group mb-3">
 				    <div class="input-group-prepend">
-				        <span class="input-group-text" id="subject-3">21PSP23</span>
+				        <span class="input-group-text" id="subject-5">PM (21xx65x)</span>
 				    </div>
 					<input class="subject form-control" type="number" credit="3">
 				</div>
 
 				<div class="input-group mb-3">
 				    <div class="input-group-prepend">
-				        <span class="input-group-text" id="subject-4">21ELN24</span>
-				    </div>
-					<input class="subject form-control" type="number" credit="3">
-				</div>
-
-				<div class="input-group mb-3">
-				    <div class="input-group-prepend">
-				        <span class="input-group-text" id="subject-5">21EME25</span>
-				    </div>
-					<input class="subject form-control" type="number" credit="3">
-				</div>
-
-				<div class="input-group mb-3">
-				    <div class="input-group-prepend">
-				        <span class="input-group-text" id="subject-6">21CHEL26</span>
+				        <span class="input-group-text" id="subject-6">CGL (21CSL66)</span>
 				    </div>
 					<input class="subject form-control" type="number" credit="1">
 				</div>
 
 				<div class="input-group mb-3">
 				    <div class="input-group-prepend">
-				        <span class="input-group-text" id="subject-7">21CPL27</span>
-				    </div>
-					<input class="subject form-control" type="number" credit="1">
-				</div>
-
-				<div class="input-group mb-3">
-				    <div class="input-group-prepend">
-				        <span class="input-group-text" id="subject-8">21EGH28</span>
+				        <span class="input-group-text" id="subject-4">MP (21CSMP67)</span>
 				    </div>
 					<input class="subject form-control" type="number" credit="2">
 				</div>
 
 				<div class="input-group mb-3">
 				    <div class="input-group-prepend">
-				        <span class="input-group-text" id="subject-9">21SFH29</span>
+				        <span class="input-group-text" id="subject-4">INT (21INT68)</span>
 				    </div>
-					<input class="subject form-control" type="number" credit="1">
+					<input class="subject form-control" type="number" credit="3">
 				</div>
+
 
 				<button class="btn btn-success form-control" id="btn">Calculate</button>
 				<br/><br>
@@ -133,6 +106,6 @@
 		<footer class="text-center">Made with &lt;3 by: <a href="https://s4hil.github.io">Sahil Parray</a></footer>
 	</div>
 
-	<script src="./assets/js/main.js"></script>
+	<script src="./assets/js/3rd.js"></script>
 </body>
 </html>
